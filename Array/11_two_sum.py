@@ -2,6 +2,8 @@
 11. Two sum
 """
 
+#Updated
+
 arr=list(map(int,input("Enter your elements: ").split()))
 trgt=int(input("Enter the targeted no.: "))
 arr.sort()
