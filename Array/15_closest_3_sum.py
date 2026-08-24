@@ -4,20 +4,18 @@
 
 def three_sum(ar,xx):
     n=len(ar)
-    if n<3:
-        return "Need atleast  3 elements"
     ar.sort()
     closest=ar[0]+ar[1]+ar[2]
 
     for i in range(n-2):
-
-        if i>0 and ar[i]==ar[i-1] :
+        if ar[i]>0 and ar[i]==ar[i-1] :
             continue
         l=i+1
         r=n-1
         while l<r:
             sm=ar[i]+ar[l]+ar[r]
-            if abs(closest-xx)>abs(sm-xx):
+            z=sm-xx
+            if abs(closest-xx)>(sm-xx):
                 closest=sm
             if sm == xx:
                 return sm
