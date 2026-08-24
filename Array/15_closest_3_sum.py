@@ -2,7 +2,7 @@
 15. Closest 3 sum
 """
 
-def three_sum(ar,xx):
+def three_sm(ar,xx):
     n=len(ar)
     ar.sort()
     closest=ar[0]+ar[1]+ar[2]
@@ -27,5 +27,5 @@ def three_sum(ar,xx):
     return closest
 arr=list(map(int,input("Enter the elements you want to add: ").split()))
 a=int(input("Enter the target number u want 3 nos. from the array sum upto: "))
-result=three_sum(arr,a)
+result=three_sm(arr,a)
 print(result)
