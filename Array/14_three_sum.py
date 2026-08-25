@@ -22,7 +22,7 @@ def three_sum(ar):
                 r -= 1
                 while l < r and ar[l] == ar[l-1]:
                     l += 1
-                while l < r and ar[r] == ar[r+1]:
+                while l < r and r+1<n ar[r] == ar[r+1]:
                     r -= 1
             elif sum < 0:
                 l += 1
