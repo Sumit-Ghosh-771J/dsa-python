@@ -13,7 +13,7 @@ def sld_wind(ar,x):
 arr=list(map(int,input("Enter the elements of the array: ").split()))
 y=int(input("Enter the window size: "))
 if len(arr)<y:
-    print("Error! less than 3 elements entered")
+    print(f"Error! less than {y} elements entered")
 else:
     res=sld_wind(arr,y)
     print(res)
