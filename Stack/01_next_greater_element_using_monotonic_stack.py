@@ -1,5 +1,5 @@
 """
-21. Next greater element using monotonic stack
+1. Next greater element using monotonic stack
 """
 
 arr = list(map(int, input("Enter the elements: ").split()))
