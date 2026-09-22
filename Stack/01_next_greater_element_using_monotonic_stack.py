@@ -13,3 +13,8 @@ for i in range(len(arr) - 1, -1, -1):
     stack.pop()
   if stack:
     ans[i] = stack[-1]
+  stack.append(arr[i])
+
+print(ans)
+
+
